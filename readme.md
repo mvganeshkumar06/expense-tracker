@@ -1,7 +1,7 @@
-## Vanilla JS practice projects
+# Vanilla JS practice projects
 
 The below projects are created to practice vanilla js.
 
-#### Background Color Generator
+Background Color Generator
 
-#### Expense Tracker
+[Expense Tracker](https://ganesh-kumar-expense-tracker.netlify.app/ "Expense tracker")
