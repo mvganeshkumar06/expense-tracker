@@ -66,8 +66,6 @@ container.addEventListener("click", (event) => {
 window.addEventListener("load", () => {
   let localArr = JSON.parse(localStorage.getItem("localArr"));
 
-  console.log("wait the data is coming...");
-
   if (localArr) {
     localArr.map((item) => {
       createExpenseCard(item.type, item.amt);
