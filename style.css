@@ -3,10 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  --primaryColor: rgb(175, 235, 255);
+  --linksColor: rgb(162, 0, 255);
 }
 
 body {
-  background-color: rgb(175, 235, 255);
+  background-color: var(--primaryColor);
   min-height: 100vh;
   position: relative;
   display: flex;
@@ -19,7 +22,7 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 5rem;
 }
 
 #totalExpense {
@@ -65,19 +68,54 @@ body {
   height: 25px;
 }
 
-#heartIcon {
-  width: 20px;
-  height: 20px;
-}
-
-#iconAttribution {
-  color: rgb(64, 64, 243);
-}
-
 footer {
   position: absolute;
   bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#heartIcon {
+  width: 20px;
+  height: 20px;
+}
+
+#iconAttribution {
+  color: var(--linksColor);
+  margin: 5px 0px;
+}
+
+#socialFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  margin: 0px 1px;
+  border-radius: 5px;
+}
+
+.icons:hover {
+  box-shadow: 1px 1px 1px 1px rgb(104, 104, 104);
+}
+
+@media (min-width: 400px) {
+  * {
+    font-size: medium;
+  }
+  .icons {
+    margin: 0px 5px;
+  }
 }

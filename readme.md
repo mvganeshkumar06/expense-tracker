@@ -1,7 +1,5 @@
-# Vanilla JS practice projects
+# Expense Tracker
 
-The below projects are created to practice vanilla js.
+An expense tracker built using vanilla javascript to track your expenses dynamically.
 
-- Background Color Generator
-
-- Expense Tracker ( here is the [expense tracker link](https://mvganeshkumar-expense-tracker.netlify.app/ "Expense tracker app") )
+Here is the [expense tracker link](https://mvganeshkumar-expense-tracker.netlify.app/ "Expense tracker app")
