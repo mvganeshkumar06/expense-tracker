@@ -4,12 +4,10 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: small;
-  --primaryColor: rgb(175, 235, 255);
-  --linksColor: rgb(162, 0, 255);
 }
 
 body {
-  background-color: var(--primaryColor);
+  background-color: #90cdf4;
   min-height: 100vh;
   position: relative;
   display: flex;
@@ -91,7 +89,7 @@ a:hover {
 }
 
 #iconAttribution {
-  color: var(--linksColor);
+  color: rgb(162, 0, 255);
   margin: 5px 0px;
 }
 
@@ -108,7 +106,7 @@ a:hover {
 }
 
 .icons:hover {
-  box-shadow: 1px 1px 1px 1px rgb(104, 104, 104);
+  box-shadow: 1px 1px 2px 1px rgb(34, 34, 34);
 }
 
 @media (min-width: 400px) {
